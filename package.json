@@ -1,0 +1,26 @@
+{
+  "name": "flippage",
+  "version": "1.0.0",
+  "description": "An flipboard-like HTML5 page-swiping template",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanwangjkl/flippage.git"
+  },
+  "author": "nanwangjkl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanwangjkl/flippage/issues"
+  },
+  "homepage": "https://github.com/nanwangjkl/flippage#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
