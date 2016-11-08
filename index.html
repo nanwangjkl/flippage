@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="stylesheet" type="text/css" href="dist/flippage.min.css">
+
+	<title>flippage</title>
+</head>
+<body>
+	<!-- 翻到最上一页或者最下一页的提示 -->
+	<p class="page-top-note">已经是第一页</p>
+	<p class="page-bottom-note">已经是最后一页</p>
+	<!-- background-style-1 为黑色，background-style-2 为白色 -->
+	<div class="page-wrapper background-style-1">
+		<div class="page-block">
+			<div class="upper-block">
+				<div class="title-block">
+					<h1>此处输入标题</h1>
+					<h2>此处输入副标题</h2>
+					<img src="color16.jpg">
+				</div>
+			</div>
+			<div class="lower-block">
+				<div class="title-block">
+					<h1>此处输入标题</h1>
+					<h2>此处输入副标题</h2>
+					<img src="color16.jpg">
+				</div>
+			</div>
+		</div>
+
+		<div class="page-block">
+			<div class="upper-block">
+				<div class="content-block">
+					<img src="color8.jpg">
+					<h3>标题</h3>
+					<p>虽然大部分Windows用户都已经收到微软Windows Update通知并免费获得升级Windows 10的机会，但为了将其他的用户都考虑在内，现在，微软又发布了该套系统的镜像文件。在安装之前以下几个事项是用户必须注意的：保证网络正常；保证电脑有足够的空间下载，也可选择U盘或其他外置储存设备。</p>
+				</div>
+			</div>
+			<div class="lower-block">
+				<div class="content-block">
+					<img src="color8.jpg">
+					<h3>标题</h3>
+					<p>虽然大部分Windows用户都已经收到微软Windows Update通知并免费获得升级Windows 10的机会，但为了将其他的用户都考虑在内，现在，微软又发布了该套系统的镜像文件。在安装之前以下几个事项是用户必须注意的：保证网络正常；保证电脑有足够的空间下载，也可选择U盘或其他外置储存设备。</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="page-block">
+			<div class="upper-block">
+				<div class="end-block">
+					<img src="color16.jpg">
+					<p>美光与英特尔已经成立了合资企业生产闪存芯片。这种芯片可用于移动设备存储数据，同时被越来越多的电脑使用。美光也制造内存——即手机和个人电脑上用来短期存储数据的元件。该公司是韩国三星、海力士的竞争对手。</p>
+				</div>
+			</div>
+			<div class="lower-block">
+				<div class="end-block">
+					<img src="color16.jpg">
+					<p>美光与英特尔已经成立了合资企业生产闪存芯片。这种芯片可用于移动设备存储数据，同时被越来越多的电脑使用。美光也制造内存——即手机和个人电脑上用来短期存储数据的元件。该公司是韩国三星、海力士的竞争对手。</p>
+					<a href="javascript:void(0);" class="link link1">链接1</a>
+					<a href="javascript:void(0);" class="link link2">链接2</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+	<script src="//cdn.bootcss.com/hammer.js/2.0.8/hammer.min.js"></script>
+	<script src="dist/flippage.min.js"></script>
+   	<script>
+		$(document).ready(function() {
+			initPageFlip();
+		});
+   	</script>
+</body>
+</html>
