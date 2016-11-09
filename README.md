@@ -11,3 +11,4 @@
 ## Device support 设备支持
 Android和iOS主流设备均支持
 ## Usage 用法
+详见index.html内
